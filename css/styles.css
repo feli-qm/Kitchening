@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../images/bg-body.png");
+}
+
+.acceso{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-right: 20px;
+}
+
+.navegador{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.logo img{
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.fotobanner img{
+    display: flex;
+    justify-content: center;
+    width: 1180px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.indice{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #444;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    width: 180px;
+    height: 50px;
+    padding: 0px;
+    
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: 380px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.imagenes:first-child{
+    margin-left: 0;
+}
+
+.imagenes:last-child{
+    margin-right: 0;
+}
+
+.imagenes img{
+    height: fit-content;
+    width: 380px;
+}
+
+.imagenes p{
+    font-size: 15px;
+    align-self: start;
+}
+
+.imagenes h2{
+    font-size: large;
+    align-self: start;
+}
+
+.imagenes h3{
+    background-color: #444;
+    padding: 12px;
+    justify-content: space-around;
+    font-size: medium;
+    color:white;
+    width: fit-content;
+    align-self: start;
+    margin-bottom: 30px;
+}
+
+.padr{
+    display: flex;
+    flex-direction: row;
+}
+
+.barrafinal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1180px;
+    background-color: rgb(200,0,0);
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    padding:20px 0px;
+    height: 50px;
+    color:white;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.barrafinal a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
